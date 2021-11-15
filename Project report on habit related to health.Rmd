@@ -2,19 +2,22 @@
 title: "Habits Related to Health of students of M.H.Hall AMU, ALigarh"
 author: "Mohd Danish"
 date: "03/10/2021"
-subject: "Project Report"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
+subject: Project Report
 ---
 
 
-#                                     CHAPTER 1
-## INTRODUCTION 
+#                                     **CHAPTER 1**
+## **INTRODUCTION** 
 
-### 1.1 Health
+### **1.1 Health**
 
 Health, is defined by the World Health Organization (WHO), as "a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.” This definition has been subject to controversy, as it may have limited value for implementation. Health may be defined as the ability to adapt and manage physical, mental and social challenges throughout life.
 Generally, the context in which an individual lives is of great importance for both his health status and quality of their life, It is increasingly recognized that health is maintained and improved not only through the advancement and application of health science but also through the efforts and intelligent lifestyle choices of the individual and society. According to the World Health Organization, the main determinants of health include the social and economic environment, the physical environment and the person's individual characteristics and behaviors.
 More specifically, key factors that have been found to influence whether people are healthy or unhealthy include the following:
+
 -	Income and social status
 -	Social support networks
 -	Education and literacy 
@@ -27,10 +30,10 @@ More specifically, key factors that have been found to influence whether people 
 -	Gender
 -	Culture
 
-#### 1.2 Hygiene
+#### **1.2 Hygiene**
 
-Hygiene is a set of practices performed to preserve health. According to the World HealthOrganisation (WHO), "Hygiene refers to conditions and practices that help to maintain health and prevent the spread of diseases." Personal hygiene refers to maintaining the body's cleanliness.
-Many people equate hygiene with 'cleanliness,' but hygiene is a broad term. It includes such personal habit choices as how frequently to take a shower or bathe, wash hands, trim fingernailsand change and wash clothes. It also includes attention to keeping surfaces in the home and workplace, including bathroom facilities, clean and pathogen-free.
+Hygiene is a set of practices performed to preserve health. According to the World Health Organisation(WHO), "Hygiene refers to conditions and practices that help to maintain health and prevent the spread of diseases." Personal hygiene refers to maintaining the body's cleanliness.
+Many people equate hygiene with 'cleanliness,' but hygiene is a broad term. It includes such personal habit choices as how frequently to take a shower or bathe, wash hands, trim fingernails and change and wash clothes. It also includes attention to keeping surfaces in the home and workplace, including bathroom facilities, clean and pathogen-free.
 Some regular hygiene practices may be considered as a good habit by a society, while the neglect of hygiene can be considered disgusting, disrespectful, or threatening.
 Hygiene is a concept related to cleanliness, health and medicine. It is as well related to personal and professional care practices. In medicine and everyday life settings, hygiene practices are employed as preventative measures to reduce the incidence and spreading of disease.
 Hygiene practices vary, and what is considered acceptable in one culture might not be acceptable in another.
@@ -38,14 +41,14 @@ In the manufacturing of food, pharmaceutical, cosmetic and other products, good 
 The terms cleanliness and hygiene are often used interchangeably, which can cause confusion. In general, hygiene refers to the practices that prevent spread of disease-causing organisms. Cleaning processes (e.g., hand-washing) remove infectious microbes as well as dirt and soil, and are thus often the means to achieve hygiene.
 Other uses of the term appear in phrases including body hygiene personal hygiene, sleep hygiene, mental hygiene,dental hygiene and occupational hygiene used in connection with public health. Hygiene is also the name of a branch of science that deals with the promotion and preservation of health .
 
-### 2. Parameters of Health
+### **2. Parameters of Health**
 
 -	Body Mass Index
 -	Exercise
 -	Sleep
 -	Environment
 
-#### 2.1 BMI(Body Mass Index)
+#### **2.1 BMI(Body Mass Index)**
 
 The Body Mass Index(BMI) is a physical measurement used to assess an individual’s total amount of body fat. The BMI was invented by Belgian polymath Adolphe Quetelet in the 1800s, and consequently is sometimes known as the Quetelet Index[3]. The BMI is calculated by dividing your weight in kilograms (kg) by your height in metres squared (m2). It is expressed as kg/m2. BMIcut-off values are given in Table 1.
 What does your BMI mean?
@@ -54,7 +57,7 @@ The BMI scores give an indirect measure of body fat. Depending on the BMI value 
 **Table 1: BMI cut-off values**
 
 
-##### BMI	Classification
+##### **BMI	Classification**
 ```{r,echo=FALSE}
 library(knitr)
 library(kableExtra)
@@ -65,17 +68,17 @@ kable(df,caption = "Classification of BMI")%>%kable_styling(bootstrap_options = 
 
 ```
 
-##### Why are BMIs useful?
+##### **Why are BMIs useful?**
 
 The BMI is a simple, inexpensive screening tool used to identify possible weight problems for both adults and children. A BMI measurement is useful to assess who needs further testing to identify health risks such as heart diseases.Individuals at risk will need further assessment. Assessments may include skin fold thickness test, diet, physical activity level, family history and other appropriate health screenings.
 Risks associated with extreme BMIs: Being either overweight (with a BMI of 25 or above) or underweight (with a BMI lower than 18.5) can affect your health.
-Overweight :Individuals who are overweighted or obese have a greater risk of disease compared to those in the healthy weight range. The risk of disease increases with increasing BMI. Those classified overweight $(BMI = 25-29.9)$ may also be considered pre-obese and are at an increased risk of disease. In Category 1 obesity $(BMI = 30-34.9)$ there is a moderate risk of disease, which increases to severe and very severe risk at obesity stages 2 $(BMI = 35-39.9)$ and 3 $(BMI ≥ 40)$ respectively.
+Overweight :Individuals who are over-weighted or obese have a greater risk of disease compared to those in the healthy weight range. The risk of disease increases with increasing BMI. Those classified overweight $(BMI = 25-29.9)$ may also be considered pre-obese and are at an increased risk of disease. In Category 1 obesity $(BMI = 30-34.9)$ there is a moderate risk of disease, which increases to severe and very severe risk at obesity stages 2 $(BMI = 35-39.9)$ and 3 $(BMI ≥ 40)$ respectively.
 It is important to note that BMI does not determine risk alone. Other factors such as what one eats, how much they exercise and whether or not there is a history of disease in their family also influences an individual’s risk of disease. However as a group, overweight and obese individuals have an increased risk of many diseases.
 
 ##### They have a greatly increased risk of:
 
 -	Type 2 Diabetes
--	Gall bladder diesease.
+-	Gall bladder disease.
 -	Hypertension.
 -	Dyslipidaemia
 -	Insulin Resistance
@@ -88,26 +91,26 @@ It is important to note that BMI does not determine risk alone. Other factors su
 
 ##### They have a moderately increased risk of:
 
--	Cardiovascular diseases(i.e. stroke, heart attack)
--	Gout/hyperuricaemia
--	Osteoarthritis
--	Respiratory disease
--	Hernia
+-	Cardiovascular diseases(i.e. stroke, heart attack).
+-	Gout/hyperuricaemia.
+-	Osteoarthritis.
+-	Respiratory disease.
+-	Hernia.
 -	Psychological problems.
 
 ##### They have a slightly increased risk of:
 
--	Some forms of cancer (breast, colon and endometrial cancers)
--	Reproductive abnormalities
--	Impaired fertility 
--	Polyscystic ovarian syndrome
--	Skin complications
--	Contaract
--	Varicose veins
--	Musculskeletal problems
--	Bad back
--	Stress incontinence
--	Oedema/cellulitis
+-	Some forms of cancer (breast, colon and endometrial cancers).
+-	Reproductive abnormalities.
+-	Impaired fertility.
+-	Polyscystic ovarian syndrome.
+-	Skin complications.
+-	Contaract.
+-	Varicose veins.
+-	Musculskeletal problems.
+-	Bad back.
+-	Stress incontinence.
+-	Oedema/cellulitis.
 
 **Underweight**
 
@@ -118,11 +121,11 @@ Individuals who are underweight may be malnourished. In addition they have an in
 -	Menstrual irregularities
 -	Impaired fertility.
 
-#### 2.2 Exercise
+#### **2.2 Exercise**
 
-Exercise is an bodily activity that enhances or maintains physical fitness and overall health and wellness. It is performed for various reasons, including increasing growth and development, preventing aging strengthning muscles and the cardiovascular system, honingathletic  skills, weight lossor maintenance, improving health and also for enjoyment. Many individuals choose to exercise outdoors where they can congregate in groups, socialize, and enhance well-being.
+Exercise is an bodily activity that enhances or maintains physical fitness and overall health and wellness. It is performed for various reasons, including increasing growth and development, preventing aging strengthening muscles and the cardiovascular system, honingathletic  skills, weight lossor maintenance, improving health and also for enjoyment. Many individuals choose to exercise outdoors where they can congregate in groups, socialize, and enhance well-being.
 
-##### 2.2.1 Classification
+##### **2.2.1 Classification**
 
 Physical exercises are generally grouped into three types, depending on the overall effect they have on the human body:
 
@@ -133,13 +136,13 @@ Physical exercise can also include training that focuses on accuracy, agility, p
 Sometimes the terms 'dynamic' and 'static' are used.'Dynamic' exercises such as steady running, tend to produce a lowering of the Diastolic blood pressure during exercise, due to the improved blood flow. Conversely, static exercise (such as weight-lifting) can cause the systolic pressure to rise significantly, 
 albeit transiently, during the performance of the exercise.
 
-##### 2.2.2 Health effects
+##### **2.2.2 Health effects**
 
 Physical exercise is important for maintaining physical fitness and contribute to maintaining a healthy weight, regulating digestive health, building and maintaining healthy bone density, muscle strength, and joint mobility, promoting physiological well-being, reducing surgical risks, and strengthening the immune system. Some studies indicate that exercise may increase life expectancy and the overall quality of life.People who participate in moderate to high levels of physical exercise have a lower mortality rate compared to individuals who by comparison are not physically active.Moderate levels of exercise have been correlated with preventing aging by reducing inflammatory potential. The majority of the benefits from exercise are achieved with around 3500 Metabolic equivalent (MET) minutes per week. For example, climbing stairs 10 minutes, vacuuming 15 minutes, gardening 20 minutes, running 20 minutes, and walking or bicycling for transportation 25 minutes on a daily basis would together achieve about 3000 MET minutes a week. A lack of physical activity causes approximately 6% of the burden of disease from coronary heart disease, 7% of type 2 diabetes, 10% of breast cancer and 10% of colon cancer worldwide. Overall, physical inactivity causes 9% of premature mortality worldwide [5].
 
 
 
-#### 2.3 Sleep
+#### **2.3 Sleep**
 
 Sleep is a naturally recurring state of mind and body, characterized by altered consciousness relatively inhibited sensory activity, inhibition of nearly all voluntary muscles and reduced interactions with surroundings. It is distinguished from wakefulness by a decreased ability to react to stimuli, but more reactive than Coma or disorder of consciousness, sleep displaying very different and active brain patterns.
 Sleep occurs in repeated periods in which the body alternates between two distinct modes: REM sleep and non-REM sleep. Although REM stands for "rapid eye movement", this mode of sleep has many other aspects, including virtual Paralysis of the body. A well-known feature of sleep is the dream a, an experience typically recounted in narrative form, which resembles waking life while in progress, but which usually can later be distinguished as fantasy.
@@ -147,36 +150,36 @@ During sleep, most of the body’s system are in an anabolic state, helping to r
 Sleep is a highly conserved behavior across animal evolution.
 Humans may suffer from various sleep disorders including Dyssomnia as such as insomnia hypersomnia, narcolepsy and Sleep apnea, Parasomnia such as Sleep walking and REM behaviour disorder, bruxism and Circadian rhythm sleep disorders. The advent of artificial light has substantially altered sleep timing in industrialized countries.
 
-##### 2.3.1 Physiology
+##### **2.3.1 Physiology**
 
 The most pronounced physiological changes in sleep occur in the brain. The brain uses significantly less energy during sleep than it does when awake, especially during non-REM sleep. In areas with reduced activity, the brain restores its supply of adenosine triphosphate(ATP), the molecule used for short-term storage and transport of energy. In quiet waking, the brain is responsible for 20% of the body's energy use, thus this reduction has a noticeable effect on overall energy consumption.
 Sleep increases the sensory threshold. In other words, sleeping persons perceive fewer stimuli, but can generally still respond to loud noises and other salient sensory events.
 During slow-wave sleep, humans secrete bursts of growth hormone. All sleep, even during the day, is associated with secretion of prolactin.
 Key physiological methods for monitoring and measuring changes during sleep include electroencephalography (EEG) of brain waves, electrooculography (EOG) of eye movements, and electromyography (EMG) of skeletal muscle activity. Simultaneous collection of these measurements is called polysomnography, and can be performed in a specialized sleep laboratory. Sleep researchers also use simplified electrocardiography (EKG) for cardiac activity and actigraphy for motor movements.
 
-##### 2.3.2 Awakening
+##### **2.3.2 Awakening**
 
 Awakening can mean the end of sleep, or simply a moment to survey the environment and readjust body position before falling back asleep. Sleepers typically awaken soon after the end of a REM phase or sometimes in the middle of REM. Internal circadian indicators, along with successful reduction of homeostatic sleep need, typically bring about awakening and the end of the sleep cycle. Awakening involves heightened electrical activation in the brain, beginning with the thalamus and spreading throughout the cortex.
 During a night's sleep, a small amount of time is usually spent in a waking state. As measured by electroencephalography, young females are awake for 0–1% of the larger sleeping period; young males are awake for 0–2%. In adults, wakefulness increases, especially in later cycles. One study found 3% awake time in the first ninety-minute sleep cycle, 8% in the second, 10% in the third, 12% in the fourth, and 13–14% in the fifth. Most of this awake time occurred shortly after REM sleep.
 Today, many humans wake up with an alarm clock; however, people can also reliably wake themselves up at a specific time with no need for an alarm.Many sleep quite differently on workdays versus days off, a pattern which can lead to chronic circadian desynchronization. Many people regularly look at television and other screens before going to bed, a factor which may exacerbate disruption of the circadian cycle. Scientific studies on sleep have shown that sleep stage at awakening is an important factor in amplifying sleep inertia.
 
 
-##### 2.3.3 Social timing
+##### **2.3.3 Social timing**
 
 Humans are also influenced by aspects of social time, such as the hours when other people are awake, the hours when work is required, the time on the clock, etc. Time zones, standard times used to unify the timing for people in the same area, correspond only approximately to the natural rising and setting of the sun. The approximate nature of the timezone can be shown with China, a country which used to span five time zones and now officially uses only one (UTC +8).
 
-##### 2.3.4Distribution
+##### **2.3.4Distribution**
 
 In poly-phasic sleep, an organism sleeps several times in a 24-hour cycle. Mono-phasic sleep occurs all at once. Under experimental conditions, humans tend to alternate more frequently between sleep and wakefulness (i.e., exhibit more poly-phasic sleep) if they have nothing better to do. Given a 14-hour period of darkness in experimental conditions, humans tended towards bi-modal sleep, with two sleep periods concentrated at the beginning and at the end of the dark time. Bi-modal sleep in humans was more common before the industrial revolution.
 Different characteristic sleep patterns, such as the familiarly so-called "early bird" and "night owl", are called chronotypes. Genetics and sex have some influence on chronotype, but so do habits. Chronotype is also liable to change over the course of a person's lifetime. Seven-year-olds are better disposed to wake up early in the morning than are fifteen-year-olds. Chronotypes far outside the normal range are called circadian rhythm sleep disorders.
 
-##### 2.3.5. Genetics
+##### **2.3.5. Genetics**
 
 It is hypothesized that a considerable amount of sleep-related behavior, such as when and how long a person needs to sleep, is regulated by genetics. Researchers have discovered some evidence that seems to support this assumption. Monozygotic (identical) but not dizygotic (fraternal) twins tend to have similar sleep habits. Neurotransmitters, molecules whose production can be traced to specific genes, are one genetic influence on sleep which can be analyzed. And the circadian clock has its own set of genes. Genes which may influence sleep include ABCC9, DEC2, and variants near PAX 8 and VRK2.
 
 
 
-##### 2.3.6. Recommended Sleep duration
+##### **2.3.6. Recommended Sleep duration.**
 
 Children need many hours of sleep per day in order to develop and function properly: up to 18 hours for newborn babies, with a declining rate as a child ages. Early in 2015, after a two-year study, the National Sleep Foundation in the US announced newly revised recommendations as shown in the table below.
 ```{r, echo= FALSE}
@@ -187,7 +190,7 @@ colnames(df_0) = c("Age and Condition","Sleep Needs")
 kable(df_0,caption = "Recommended sleeping hours")%>%kable_styling(bootstrap_options = "striped",font_size = 14)
 ```
 
-##### 2.3.7Disorders
+##### **2.3.7Disorders**
 
 **1.Insomnia**
 
@@ -282,60 +285,64 @@ The potential impact of nanotechnology is significant and offers possible improv
 
 
 
-### Objective of this study:
+### **Objective of this study:**
 
 1. Our main objective is to elicit the information that what are the major factors that affect students’ health.
 2. How can we keep ourselves healthy by considering some points and getting  knowledge about the health issues.
 3. How many students lie in different category of BMI like (underweight, healthy, overweight, obese, highly obese).
-4.Parameters that we have selected for the study, do they have some significant effect on the health combinely.
+4.Parameters that we have selected for the study, do they have some significant effect on the health combined.
 
-#                                   CHAPTER 2
-## METHODOLOGY
+#                                   **CHAPTER 2**
+## **METHODOLOGY**
 
-### 2.1 POPULATION
+### **2.1 POPULATION**
 
 The word population is used to denote the aggregate from which the sample is chosen. Population means all the members that meet a set of specification or a specified criterion.For example, the population of the Mohd Habib Hall is defined as all the students residing in the hall.
 
-### 2.2 SAMPLE
+### **2.2 SAMPLE**
 
 A finite subset of statistical individuals in a population is called a sample and the number of individuals in a sample is called the sample size.
 
-#### 2.2.1 Types of Sampling:
+#### **2.2.1 Types of Sampling:**
 
 Some of the commonly known and frequently used types of sampling are :
-(a)Purposive sampling
-(b)Random sampling
-(c)Stratified sampling
-(d)Systematic Sampling
 
-### 2.3 STRATIFIED SAMPLING
+(a) Purposive sampling
+
+(b) Random sampling
+
+(c) Stratified sampling
+
+(d) Systematic Sampling
+
+### **2.3 STRATIFIED SAMPLING**
 
 Where the entire heterogeneous population is divided into a number of homogeneous groups, usually termed as strata, which differ from one another but each of these groups is homogenous within itself. Then units are sampled at random from each of these stratum, the sample size in each stratum varies according to the relative importance of the stratum in the population. The sample, which is the aggregate of the sampled units of each of the stratum, is termed as stratified sampling and the technique of drawing this sample is known as stratified sampling. Such a sample is by far the best and can safely be considered as representative of the population from which it has been drawn. In our project , we used stratified sampling. In the total population of M.H.HALL , we have selected sample randomly in the three strata named as U.G., P.G., Ph.D.
 
-### 2.4 SAMPLE SURVEY
+### **2.4 SAMPLE SURVEY**
 
 A sample survey is a process for collecting data on a sample of observations which are selected from the population of interest using a probability-based sample design. In sample surveys, certain methods are often used to improve the precision and control the costs of survey data collection.
 
-### 2.5 DATA TYPES
+### **2.5 DATA TYPES**
 
 Having a good understanding of the different data types, also called measurement scales, is a crucial prerequisite for doing Exploratory Data Analysis (EDA), since one can use certain statistical measurements only for specific data types.
 One also needs to know which data type you are dealing with to choose the right visualization method. Think of data types as a way to categorize different types of variables. We will discuss the main types of variables and look at an example for each. We will sometimes refer to them as measurement scales.
  
 
 
-#### 2.5.1 CATEGORICAL DATA
+#### **2.5.1 CATEGORICAL DATA**
 
 Categorical data represents characteristics. Therefore it can represent things like a person’s gender, language etc. Categorical data can also take on numerical values (Example: 1 for female and 0 for male). Note that those numbers don’t have mathematical meaning.
 
-#### 2.5.2 NOMINAL DATA
+#### **2.5.2 NOMINAL DATA**
 
 Nominal values represent discrete units and are used to label variables, that have no quantitative value. Just think of them as labels. Note that nominal data that has no order. Therefore if you would change the order of its values, the meaning would not change.
 
-#### 2.5.3 ORDINAL DATA
+#### **2.5.3 ORDINAL DATA**
 
 Ordinal values represent discrete and ordered units. It is therefore nearly the same as nominal data, except that it’s ordering matters.
 Note that the difference between Elementary and High School is different than the difference between High School and College. This is the main limitation of ordinal data, the differences between the values is not really known. Because of that, ordinal scales are usually used to measure non-numeric features like happiness, customer satisfaction and so on.
-#### 2.5.4 NUMERICAL DATA
+#### **2.5.4 NUMERICAL DATA**
 
 **2.5.4.1 DISCRETE DATA**
 
@@ -357,9 +364,9 @@ Ratio values are also ordered units that have the same difference. Ratio values 
 Why Data Types are important?
 Data types are an important concept because statistical methods can only be used with certain data types. You have to analyze continuous data differently than categorical data otherwise it would result in a wrong analysis. Therefore knowing the types of data you are dealing with, enables you to choose the correct method of analysis. 
 
-### 2.6 Statistical Methods
+### **2.6 Statistical Methods**
 
-#### 2.6.1 Nominal Data
+#### **2.6.1 Nominal Data**
 
 When you are dealing with nominal data, you collect information through:
 Frequencies: The Frequency is the rate at which something occurs over a period of time or within a dataset.
@@ -367,17 +374,19 @@ Proportion: You can easily calculate the proportion by dividing the frequency by
 Percentage: This one doesn’t need an explanation.
 Visualization Methods: To visualize nominal data you can use a pie chart or a bar chart.
 
-#### 2.6.2 Ordinal Data
+#### **2.6.2 Ordinal Data**
 
 When you are dealing with ordinal data, you can use the same methods like with nominal data, but you also have access to some additional tools. Therefore you can summarize your ordinal data with frequencies, proportions, percentages. And you can visualize it with pie and bar charts. Additionally, you can use percentiles, median, mode and the inter-quartile range to summarize your data.
 
-#### 2.6.3 Continuous Data
+#### **2.6.3 Continuous Data**
+
 When you are dealing with continuous data, you can use the most methods to describe your data. You can summarize your data using percentiles, median, inter-quartile range, mean, mode, standard deviation, and range.
 Visualization Methods:
 To visualize continuous data, we can use a histogram or a box-plot. With a histogram, we can check the central tendency, variability and kurtosis of a distribution. Note that a histogram can’t show an outlier. This is why we also use box-plots.
 
-### 2.7 SUMMARY
-#### Data collection
+### **2.7 SUMMARY**
+
+#### **Data collection**
 
 Data collection is the process of gathering and measuring information on targeted variables in an established system, which then enables one to answer relevant questions and evaluate outcomes. Data collection is a component of research in all fields of study including physicaland social sciences, humanities, and business. While methods vary by discipline, the emphasis on ensuring accurate and honest collection remains the same. The goal for all data collection is to capture quality evidence that allows analysis to lead to the formulation of convincing and credible answers to the questions that have been posed.
 
@@ -392,13 +401,14 @@ Consequences from improperly collected data include:
 -	Inability to answer research questions accurately;
 -	Inability to repeat and validate the study.Distorted findings result in wasted resources and can mislead other researchers into pursuing fruitless avenues of investigation; it may also compromise decisions, for example for public policy, which may cause disproportionate harm.
 
-### 2.8 Different types of data:
+### **2.8 Different types of data:**
 
 Data can be classified as either primary or secondary.
 
-#### 2.8.1 Primary Data:
+#### **2.8.1 Primary Data:**
 
 Primary data means original data that has been collected specially for the purpose in mind. It means someone collected the data from the original source first hand. Data collected this way is called primary data.
+
 The people who gather primary data may be an authorized organization, investigator, enumerator or they may be just someone with a clipboard. Those who gather primary data may have knowledge of the study and may be motivated to make the study a success. These people are acting as a witness so primary data is only considered as reliable as the people who gathered it.
 Research where one gathers this kind of data is referred to as field research.
 
@@ -470,32 +480,39 @@ In statistical analysis, we have to make decisions about the hypothesis.  These 
 This procedure calculates sample size and statistical power for testing a single proportion using either the exact test or other approximate z-tests. ... When the sample sizes are small or the proportions are extreme (i.e. less than 0.2 or greater than 0.8) the binomial calculations are much more accurate.
 In a z-test, the sample is assumed to be normally distributed. A z-score is calculated with population parameters such as “population mean” and “population standard deviation” and is used to validate a hypothesis that the sample drawn belongs to the same population.
 
-Null: Sample mean is same as the population mean
+**Null Hypothesis**: Sample mean is same as the population mean
 
-Alternate: Sample mean is not same as the population mean
+**Alternate Hypothesis**: Sample mean is not same as the population mean
 
 The statistics used for this hypothesis testing is called z-statistic, the score for which is calculated as
 $z = \frac{(x—\mu)}{(\sigma/\sqrt{n})}$, where
+
 x = sample mean
+
 \mu = population mean
-frac{\sigma/\sqrt{n}} = population standard deviation
+
+$\frac{\sigma}{\sqrt{n}}$ = population standard deviation
+
 If the test statistic is lower than the critical value, accept the hypothesis or else reject the hypothesis
 
 **Test for Single Proportion.**
 
 The test statistic is a z-score (z) defined by the following equation. $z=\frac{(p−P)}{\sigma}$ where P is the hypothesized value of population proportion in the null hypothesis, p is the sample proportion, and \sigma is the standard deviation of the sampling distribution.
+
 Test Statistics is defined and given by the following function:
 Point estimate
 We estimate the proportion, p, as:
  
 where x is the number in the sample who have the trait or outcome of interest, and n is the size of the sample.
-Hypothesis Tests
--	Null hypothesis $H~0~ : p = p~0~$
--	Alternative Hypothesis $H~1~: p ≠ p~0~$
-This hypothesis considers whether the population proportion is equivalent to some pre-specified value, p~0~. This value might be of historical interest or a result obtained in another study that we are trying to corroborate with our study data. A rule of thumb used to perform this test is that both np~0~ and n(1-p~0~) are greater than five.
+Hypothesis Tests:
+
+-	Null hypothesis $H_0 : p = p_0$
+-	Alternative Hypothesis $H_1: p ≠ p_0$
+
+This hypothesis considers whether the population proportion is equivalent to some pre-specified value, $p_0$. This value might be of historical interest or a result obtained in another study that we are trying to corroborate with our study data. A rule of thumb used to perform this test is that both $np_0$ and $n(1-p_0)$ are greater than five.
 
 To perform this test, we:
-1. Estimate the population proportion by the sample proportion,   .
+1. Estimate the population proportion by the sample proportion.
 2. Calculate the following test statistic, which under the null hypothesis, follows approximately (dependent on the rule of thumb stated above) a Standard 
 
 **Normal Distribution:**
@@ -503,14 +520,21 @@ Formula:-
            $z = \frac{p-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$
 
 
-Where
+Where,
+
 z= Test statistics
+
 n= Sample size
-\p_o = Null hypothesized value
+
+$p_o$ = Null hypothesized value
+
 p  = Observed proportion
+
 where n is the sample size.
+
 Decision Rule:
-Reject if Z > Z_{\alpha/2}, where Z_{\alpha/2} is the \frac{1-\alpha}{2} percentile of the standard normal distribution
+
+Reject if $Z > Z_{\alpha/2}$, where $Z_{\alpha/2}$ is the $\frac{1-\alpha}{2}$ percentile of the standard normal distribution
 
 #### 2.9.2Chi-Square Test
 
@@ -521,17 +545,21 @@ Chi-square test is used to compare categorical variables. There are two type of 
   + A high chi-square value means that data doesn’t fit.
   
 The hypothesis being tested for chi-square is
-Null: Variable A and Variable B are independent
-Alternate: Variable A and Variable B are not independent.
+
+**Null**: Variable A and Variable B are independent
+
+**Alternate**: Variable A and Variable B are not independent.
+
 The statistic used to measure significance, in this case, is called chi-square statistic. The formula used for calculating the statistic is
 
 \[\tilde{\chi}^2=\frac{1}{d}\sum\frac{(O_i - E_i)^2}{E_i})\]
 
  where
-O_i.c = observed frequency count at level i of Variable A and level c of Variable B
-E_i.c = expected frequency count at level i of Variable A and level c of Variable B
+$O_i.c$ = observed frequency count at level i of Variable A and level c of Variable B
 
-### 2.10 ggplot2
+$E_i.c$ = expected frequency count at level i of Variable A and level c of Variable B
+
+### **2.10 ggplot2**
 
 ggplot2 is an R package for producing statistical, or data, graphics, but it is unlike most other graphics packages because it has a deep underlying grammar. This grammar, based on the Grammar of Graphics (Wilkinson, 2005), is composed of a set of independent components that can be composed in many different ways. This makes ggplot2 very powerful, because you are not limited to a set of pre-specified graphics, but you can create new graphics that are precisely tailored for your problem. This may sound overwhelming, but because there is a simple set of core principles and very few special cases, ggplot2 is also easy to learn (although it may take a little time to forget your preconceptions from other graphics tools).
 Practically, ggplot2 provides beautiful, hassle-free plots, that take care of fiddly details like drawing legends. The plots can be built up iteratively and edited later. A carefully chosen set of defaults means that most of the time you can produce a publication-quality graphic in seconds, but if you do have special formatting requirements, a comprehensive theming system makes it easy to do what you want. Instead of spending time making your graph look pretty, you can focus on creating a graph that best reveals the messages in your data. 
@@ -546,7 +574,7 @@ Wilkinson (2005) created the grammar of graphics to describe the deep features t
 - A coordinate system, coord for short, describes how data coordinates are mapped to the plane of the graphic. It also provides axes and gridlines to make it possible to read the graph. We normally use a Cartesian coordinate system, but a number of others are available, including polar coordinates and map projections. 
 - A faceting specification describes how to break up the data into subsets and how to display those subsets as small multiples. This is also known as conditioning or latticing/trellising.
 
-#### 2.10.1 General Syntax
+#### **2.10.1 General Syntax**
 
 **For histogram**
 
@@ -562,9 +590,9 @@ $>ggplot(data=”**”,aes(x=var-name,y=var-name))+labels(y=”ylabel”,x=”xl
 
 
 
-#                                   CHAPTER 3
-##                         COLLECTION AND ANALYSIS OF DATA
-### 3.1	Title of the Survey
+#                                   **CHAPTER 3**
+##                         **COLLECTION AND ANALYSIS OF DATA**
+### **3.1	Title of the Survey**
 
 	“Analyzing BMI and other parameters of health, resident at MOHAMMAD HABIB Hall,Aligarh Muslim University (AMU), Aligarh (India), about HABITS RELATED TO HEALTH”.
 	
@@ -575,7 +603,7 @@ $>ggplot(data=”**”,aes(x=var-name,y=var-name))+labels(y=”ylabel”,x=”xl
 (c)	For the insights and getting better result use t-test, z-test & chi-squared test.  
 (c)	Present the conclusions which are obtained in the analysis of the survey.
 
-### 3.2	Population under Study
+### **3.2	Population under Study**
 
 In sample survey the population Mohammad Habib Hall consists of the Undergraduates, Postgraduates and Research scholars which is situated in Aligarh Muslim University, Aligarh (India).
 Mohammad Habib hall was established to commemorate Prof. Mohammad Habib in the year 1972. It has 375 rooms and three hostels which are listed below.
@@ -584,21 +612,21 @@ Mohammad Habib hall was established to commemorate Prof. Mohammad Habib in the y
 -	Haider khan hostel
        There are 644 students in these three hostels in total, if we divide this figure into hostel wise there are 240, 217 and 187 students in Chakravarti, Umaruddin and Haider khan respectively.
 
-### 3.3	Sampling Frame Construction
+### **3.3	Sampling Frame Construction**
 
 It was easy to get the list of the students’ resident in the Hall from the Provost’s Office of M.H. Hall.
 -	Such list of the students of all the hostels of M.H. Hall under study was used as sampling frame for the sample selection.
 -	The list was updated by visiting the individual hostels.
 -	Finally corrected list of all the students under study was used as workable sampling frame for the sample selection.
 
-### 3.4	Sampling Technique
+### **3.4	Sampling Technique**
 
 Stratified sampling was used with the following strata:
--	Undergraduate Students (such as BSc./BCA)
--	Post-graduate & Professional course students (such as M.Sc./ MCA/MBA)
--	Research scholars (students of Ph.D).
+-	Undergraduate Students (such as B.Sc/BCA)
+-	Post-graduate & Professional course students (such as M.Sc/ MCA/MBA)
+-	Research scholars (students of Ph.D)
 
-### 3.5	Sample Size:
+### **3.5	Sample Size:**
 
 The standard sample size determination procedure (see Chapter 2) could not be adopted as the constraint of time did not permit to conduct a pilot survey. Therefore, an ad hoc sample size, i.e. 19.78% ≈ 20% of the total population, was used. 
 Total population size, =644
@@ -642,11 +670,8 @@ sort(z)
 ```
 
 
-### 3.6 Questionnaire
+### **3.6 Questionnaire**
 -	It consists of 27 questions seeking the views of respondents on the topic 
-
-
-
 -	Four demographic questions are there in the beginning of the questionnaire, asking about the
 1. Age 
 2. Father’s occupation &
@@ -654,11 +679,11 @@ sort(z)
 4. Religion
 of the respondents
 
-### 3.7	 Field work
+### **3.7	 Field work**
 
 The field work was carried out as detailed in Chapter 2. Since, it is a known fact that no two individuals are alike it became crystal clear during the survey that each respondent has the unique way of expressing his own views. Overall, the respondents were helpful and cooperative. They tried their best to make our task easier. Sometimes, due to non-availability of respondents and some other reasons we have had to visit the selected units again and again to get the required information from all the selected individuals.
 
-### 3.8	Master Chart:
+### **3.8	Master Chart:**
 
 Master chart was replaced by a MS-Excel spreadsheet which is a rectangular array with 120 rows and 28 columns and each column represents a variable in the data object.Codes used in the Master Chart:
 the Master Chart:
@@ -672,8 +697,11 @@ kable(df2,caption = "Questionnaire details")%>%kable_styling(bootstrap_options =
 ```
 
 In question no. 1,2,3,4,6,7,8,9,13,14,15,16,18,19,24,27 
+
 Options 1,2,3,4... are used in respective manner
+
 NA →No Response 				
+
 Master Chart is given at the Appendix B
 
 ```{r}
@@ -780,9 +808,9 @@ t_c
 str(t_c)
 BMI=students$BMI
 ```
-## Testing of Hypothesis
+## **Testing of Hypothesis**
 
-*Chi-square test()*: We are applying Chi-square test on the question no 17 & 18 in which we want to see, is there any dependency between headache and stress, migraine, Depression anxiety?
+**Chi-square test()**: We are applying Chi-square test on the question no 17 & 18 in which we want to see, is there any dependency between headache and stress, migraine, Depression anxiety?
 
 **Question.17**: Do you suffer from headache?
 
@@ -817,7 +845,7 @@ $H_1$: There is dependency between headache and stress, migraine Depression anxi
 
 At the 5% level of significance.
 
-### *Strata-wise chi-squared testing*
+### **Strata-wise chi-squared testing**
 
 #### **For UG(Undergraduates)**:
 
@@ -884,6 +912,8 @@ M3
 chisq.test(M3)
 ```
 
+
+
 **Conclusion:**-
 Since p-value(0.05385) is greater than level of significance(0.05) , we have enough evidence to accept the null hypothesis . Therefore, we may conclude that there is no dependency among headache, stress, migraine and depression. 
 
@@ -907,7 +937,40 @@ M4
 chisq.test(M4)
 ```
 **Conclusion:**-
-Since p-value(0.003601) is less than level of significance(0.05) , we have enough evidence to reject the null hypothesis . Therefore we may conclude that there is dependency among headache , stress , migrane and depression. 
+Since p-value(0.003601) is less than level of significance(0.05) , we have enough evidence to reject the null hypothesis . Therefore we may conclude that there is dependency among headache , stress , migraine and depression. 
+
+#### **Z-test**
+
+We want to compare BMI of our population to the BMI of the sample to elicit the information that most of the students lie in which category, either they are healthy category or underweight or overweight
+
+**Testing Hypothesis**
+
+$H_0: p = 0.5$ (around 50% populatoon of Habib Hall lie in the healthy category of BMI)
+
+$H_1: p ≠ 0.5$ (there will be more or less students who lie in the healthy category of BMI)
+
+```{r}
+library(BSDA)
+bmi = students$BMI
+n = length(bmi)
+#intoducing an empty list
+len <- 0
+x <- vector(mode = "list", length = len)
+x
+class(x)
+#Searching BMI who comes under in Healthy Category
+for (i in bmi){
+  if(i > 18.5 && i <= 24.9){
+    x = append(x, list(i))
+  }
+}
+X = length(x) 
+X
+binom.test(X, n, p = 0.5, alternative = "two.sided", conf.level = 0.95 )
+```
+
+**Conclusion**
+Since, p-value is less than $\alpha = 0.05$ we reject our null hypothesis it means more than half of the total students are either underweight or overweight.
 
 ### **RESULTS AND CONCLUSIONS**
 
